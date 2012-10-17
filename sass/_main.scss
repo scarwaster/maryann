@@ -1,0 +1,314 @@
+@import "grid";
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	background: url(../img/assets/gradient.png) #ffffff repeat-x left top;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	height: auto;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;	
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+}
+
+.siteTitle h1 {
+	background: url(../img/assets/maryAnns_logo.png) no-repeat left top;
+	text-indent: -9999px;
+	height: 197px;
+	width: 336px;
+	position: absolute;
+	top: -70px;
+	left: 10px;
+	z-index: 9000;
+}
+
+.navigation {
+	width: 100%;
+	background: #687d7b;
+	height: 64px;
+	position: relative;
+	top: -37px;
+	z-index: 500;
+	font-family: "courgetteregular";
+	font-size: 27px;
+}
+
+a:link { 
+	color: #8b8787;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited { 
+	color: #8b8787;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover { 
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:focus { 
+	color: #8b8787;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active { 
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+
+.mainNav,
+.socialLinks {
+	list-style-type: none;
+	overflow: auto;
+	padding-left: 0;
+}
+
+.mainNav {
+	height: 50px;
+	border-top: 3px white solid;
+	border-bottom: 3px white solid;
+	margin: 3px 0 3px 0;
+	width: 100%;
+	position: relative;
+	top: 7px;
+	text-align: right;
+}
+
+.mainNav li {
+	display: inline-block;
+	overflow: auto;
+	height: 40px;
+	margin: 6px 16px 0 16px;
+}
+
+.mainNav li a {
+	color: black;
+	text-decoration: none;
+}
+
+.home li.home a,
+.news li.news a,
+.products li.products a,
+.contact li.contact a {
+	color: white;
+}
+
+.social {
+	background: url(../img/assets/circle.png) repeat-x left top;
+	height: 80px;
+	width: 100%;
+	overflow: auto;
+	margin-top: 45px;
+}
+
+.socialLinks {
+	float: right;
+	width: 240px;
+	margin-top: 0;
+}
+
+.socialLinks li {
+	float: left;
+	overflow: auto;
+	height: auto; 
+}
+
+.socialLinks li a {
+	display: block;
+	text-indent: -9999px;
+	height: 40px;
+	width: 40px;
+	margin: 5px 20px 0 20px;
+}
+
+.facebook a {
+	background: url(../img/assets/facebook.png) no-repeat left top;
+}
+
+.twitter a {
+	background: url(../img/assets/twitter.png) no-repeat left top;
+}
+
+.instagram a {
+	background: url(../img/assets/instagram.png) no-repeat left top;
+}
+
+.main {
+	position: relative;
+	top: -57px;
+	background: #eee7e7;
+	width: 100%;
+	padding: 100px 15px 100px 30px;
+	overflow: auto;
+	height: auto;
+	  -moz-box-shadow:    0px 12px 24px 5px rgba(#595a5a, .5);
+	  -webkit-box-shadow: 0px 12px 24px 5px rgba(#595a5a, .5);
+	  box-shadow:         0px 12px 24px 5px rgba(#595a5a, .5);
+}
+
+.siteBanner,
+.mainContent {
+	float: left;
+	width: 62%;
+}
+
+.content {
+	float: right;
+	width: 33%;
+	background: url(../img/assets/decorative.png) no-repeat right top;
+	height: 450px;
+}
+
+.sidebar {
+	width: 76%;
+	margin: 73px 0 0 13%;
+	padding: 0 15px 0 5px;
+	height: 300px;
+	overflow: scroll;
+}
+
+h1.pageTitle {
+	font-family: "courgetteregular";
+	font-size: 27px;
+	margin: 10px 0 10px 0;
+}
+
+.contact h1.pageTitle,
+.news h1.pageTitle {
+	text-align: center;
+	border-bottom: 3px #8b8787 solid;
+	width: 80%;
+	margin: 50% auto 0;
+}
+
+h2 {
+	font-family: "courgetteregular";
+	font-size: 22px;
+	color: black;
+}
+
+h3 {
+	font-family: "courgetteregular";
+	font-size: 17px;
+	color: black;
+}
+
+p {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	color: black;
+	line-height: 1.5em;
+}
+
+.sidebar p {
+	color: white;
+}
+
+.footer {
+	background: url(../img/assets/circle.png) repeat-x left bottom;
+	height: 100px;
+	width: 100%;
+	overflow: auto;
+	position: relative;
+	top: -30px;
+	color: white;
+}
+
+.contentInfo {
+	width: 100%;
+	background: #687d7b;
+	height: 60px;
+	font-family: "courgetteregular";
+	font-size: 27px;
+	padding-bottom: 10px;
+}
+
+.contentInfo h1 {
+	font-size: 32px;
+	margin: 0 0 0 40px;
+	width: 33%;
+	float: left;
+	line-height: 1.8em;
+}
+
+.contentInfo p {
+	font-size: 27px;
+	color: white;
+	float: left;
+	font-family: "courgetteregular";
+	line-height: 2.1em;
+	margin-top: 0;
+}
+
+.contentInfo a {
+	color: white;
+	text-decoration: none;
+}
+
+.contact .mainContent p,
+.contact .mainContent ul {
+	font-family: "courgetteregular";
+	font-size: 27px;
+}
+
+.contact .mainContent p {
+	margin-top: 0;
+}
+
+.contact .mainContent p,
+.contact .mainContent a {
+	color: #687d7b;
+}
+
+.contact .mainContent a {
+	text-decoration: none;
+}
+
+.contact .mainContent ul,
+.products .siteBanner ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.products .siteBanner li {
+	display: block;
+	float: left;
+	width: 250px;
+	margin: 0 50px 30px 0;
+}
+
+.products .siteBanner li.nails,
+.products .siteBanner li.damsel {
+	margin-right: 0;
+}
+
+.products .sidebar img {
+	display: block;
+	margin: 10px auto 10px;
+}
+
+.news article {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 3px #8b8787 solid;
+}
+
+.news .mainContent {
+	background: white;
+	padding: 2%;
+	height: 500px;
+	overflow: scroll;
+}
